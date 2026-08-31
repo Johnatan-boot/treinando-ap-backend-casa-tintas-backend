@@ -1,3 +1,5 @@
+<img width="1440" height="900" alt="Captura de tela 2026-08-31 111918" src="https://github.com/user-attachments/assets/9038bea2-155f-47c7-8b54-360dbfe7004a" />
+<img width="1440" height="900" alt="Captura de tela 2026-08-31 111908" src="https://github.com/user-attachments/assets/7fd2e7f9-dcd6-40d1-bfb4-56f91bafebf5" />
 # 🎨 Casa de Tintas — Backend
 
 API REST do projeto **Casa de Tintas**, desenvolvida para gerenciar clientes, endereços, categorias, produtos, pedidos e itens de pedidos.
