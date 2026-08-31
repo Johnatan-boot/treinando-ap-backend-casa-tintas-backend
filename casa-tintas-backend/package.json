@@ -1,5 +1,5 @@
 {
-  "name": "casa-tintas-backend",
+  "name": "treinando-ap-backend-casa-tintas-backend",
   "version": "1.0.0",
   "description": "Backend da Casa de Tintas",
   "main": "src/server.js",
