@@ -1,0 +1,62 @@
+casa-tintas-framework/
+│
+├── frontend/
+│
+└── backend/
+    │
+    ├── src/
+    │   │
+    │   ├── app.js          ← configura o Fastify
+    │   │
+    │   ├── server.js       ← inicia o servidor
+    │   │
+    │   ├── routes/
+    │   │
+    │   ├── controllers/
+    │   │
+    │   ├── services/
+    │   │
+    │   ├── models/
+    │   │
+    │   ├── config/
+    │   │
+    │   └── database/
+    │
+    ├── .env
+    ├── package.json
+    └── README.md
+A responsabilidade fica assim
+
+app.js
+
+Fastify
+  │
+  ├── plugins
+  ├── CORS
+  ├── rotas
+  ├── tratamento de erros
+  └── configuração da aplicação
+
+server.js
+
+server.js
+   ↓
+app.js
+   ↓
+Fastify.listen()
+   ↓
+Servidor funcionando
+
+
+Frontend
+   │
+   │ HTTP
+   ▼
+Fastify
+   │
+   ├── /
+   ├── /health
+   └── /health/database
+             │
+             ▼
+           MySQL

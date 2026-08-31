@@ -1,0 +1,42 @@
+┌─────────────────────────┐
+│       COMERCIOS         │
+└────────────┬────────────┘
+             │
+             │
+┌────────────▼────────────┐
+│     FUNCIONARIOS        │
+└────────────┬────────────┘
+             │
+             │
+┌────────────▼────────────┐
+│ FUNCIONARIO_CATEGORIAS  │
+└────────────┬────────────┘
+             │
+             ▼
+        CATEGORIAS
+             │
+             │
+             ▼
+          PRODUTOS
+             │
+             ▼
+          ESTOQUE
+
+
+CLIENTES
+   │
+   ├────────► ENDERECOS
+   │
+   └────────► PEDIDOS
+                  │
+        ┌─────────┼──────────┐
+        ▼         ▼          ▼
+  ITENS_PEDIDO PAGAMENTOS  ENTREGAS
+        │
+        ▼
+     PRODUTOS
+
+
+PRODUTOS
+   │
+   └──────► LINHAS_PRODUTO

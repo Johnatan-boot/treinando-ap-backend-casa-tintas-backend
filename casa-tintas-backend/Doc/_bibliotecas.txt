@@ -1,0 +1,23 @@
+2. Bibliotecas que vamos usar
+
+Para o backend inicial, eu não instalaria um monte de dependências sem necessidade.
+
+Vamos começar com:
+
+Fastify
+@fastify/cors
+@fastify/env
+mysql2
+dotenv
+
+E para desenvolvimento:
+
+nodemon
+O que cada uma fará
+Biblioteca	Função
+fastify	servidor/API
+@fastify/cors	comunicação frontend ↔ backend
+@fastify/env	variáveis de ambiente
+mysql2	conexão Node.js ↔ MySQL
+dotenv	leitura do .env
+nodemon	reiniciar servidor durante desenvolvimento
